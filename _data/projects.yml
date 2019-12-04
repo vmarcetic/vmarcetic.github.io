@@ -1,0 +1,64 @@
+- name: Roomsie
+  link: roomsie.com
+  description: |
+    Roomsie is an online marketplace that connects hosts with interns, students, and recent graduates looking for medium-term housing in Washington, D.C.
+    Some of the things I did:
+    - Implemented a new payment gateway
+    - Optimised and fixed existing code and RSpec tests
+    - New features development
+    
+    *Tech: Ruby On Rails, PostgreSQL, Redis, Heroku*
+
+- name: Five.agency
+  link: five.agency
+  description: |
+    Five is the leading Croatian full-service agency for web and mobile development. I’ve joined Five as an independent consultant for their US based clients.
+    I can’t disclose much about my engagements since most of what I did is under NDA.
+    - Built event sourcing system that was used by both internal and external applications
+    - Optimised and fixed existing code and RSpec tests
+    - Helped integration teams during the integration of event sourcing
+    system
+    - Done a lot of code reviews and implemented some of the best
+    practices
+    - Implemented Stripe and Paywhirl
+    
+    *Tech: Ruby On Rails, PostgreSQL, Docker, AWS, MySQL, Cassandra*
+
+- name: RaceChip
+  link: racechip.com
+  description: |
+    RaceChip manufactures and sells high-performance engine tuning chips for all car makes and models, resulting in less fuel consumption and up to 30% more horsepower. The company is growing rapidly and has sold over half a million chips worldwide as of early 2016.
+    
+    *Tech: Java, PostgreSQL, AWS, Jenkins*
+
+- name: Movieo.me
+  link: movieo.me
+  description: |
+    A passion project I’ve been working on in my spare time with two other colleagues. It's a well designed movie aggregator with ratings from IMDB, Rotten Tomatoes, and Metacritic — a go-to place for finding a movie to watch.
+    It was featured on Hacker News and Product Hunt front pages for over a day, and is currently being used by more than 100,000 people every month.
+    Some of the things I did:
+    - Wrote automated rake scripts which collected movie-related data from several API's such as TMDB, OMDB and more.
+    - Implemented advanced caching and data delivery mechanisms using Elastic and Redis to make Movieo incredibly performant and pleasant to use.
+    - Made sure that over 250,000 movies were updated on a daily basis.
+    - Created a complex movie filtering and recommendation system that produced the best discovery experience and outperformed the competition.
+    
+    *Tech: Ruby On Rails, PostgreSQL, Elastic, Redis, Thumbor*
+
+    [http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
+
+- name: TwoMargins
+  link: twomargins.com
+  description: |
+    Two Margins wants to change the way financial information is analyzed. It uses the wisdom of the crowd to help users gain financial insight and advantage. It allows financial experts to annotate and comment U.S. Securities and Exchange Commission issued reports and other financial/ political documents.
+    After experimenting with a couple of prototypes we built the project from scratch. I was responsible for developing and deploying the back-end and setting up the servers.
+    Some of the things I did:
+    - Gathered data from SEC’s Electronic Data Gathering, Analysis, and Retrieval systems.
+    - Built a complex Nokogiri powered HTML parsing system that allowed us to annotate heavy financial documents made of deeply and irregularly nested HTML.
+    - Supported product owners during peak traffic times and important document releases, for example during U.S. presidential elections.
+    - Integrated TwoMargins annotating interface into multiple external partner platforms.
+    - Onboarded and trained new hires once the project matured.
+    
+    *Tech: Ruby On Rails, PostgreSQL, Nokogiri*
+    
+    [http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets](http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets)
+    

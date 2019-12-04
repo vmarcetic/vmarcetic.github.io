@@ -1,0 +1,64 @@
+# Site
+#repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Vedran Marčetić
+title: Ruby Developer, Consultant at Code Tree
+email: vmarcetic@gmail.com
+website: codetree.co
+
+# Social links
+# twitter_username: facespics
+github_username:  vmarcetic
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+linkedin_username: vedran-marčetić-47236320
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: assets/profile_1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am an experienced Ruby developer, DevOps engineer, and server architect. 
+  
+  I spend most of my time working with Ruby (on Rails), but I’m also experienced with many other languages (Java, PHP, Javascript and more). 
+  
+  In my spare time I tinker with hardware and experiment with new interesting technologies.
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Member of Faculty of Organization and Informatics Student Council (2010 - 2013)
+  
+  Member of University of Zagreb Student Council, Faculty of Organization and Informatics representative (2010 - 2013)
+  
+  Organization of Skills Exchange, an informal gathering of people interested in a particular subject, such as computers, information technology, open source and free software, gnu / linux, programming, databases, etc.
+  
+  Active RubyZG member
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
