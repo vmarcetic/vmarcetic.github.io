@@ -4,7 +4,7 @@
 
 # Personal info
 name: Vedran Marčetić
-title: Rails rescue, DevOps, and practical AI
+title: Rails rescue, product ownership, and practical AI
 email: vmarcetic@bytecode.hr
 website: bytecode.hr
 
@@ -26,7 +26,9 @@ about_profile_image: assets/profile_1.jpg
 about_content: | # this will include new lines to allow paragraphs
   I help founders and product teams stabilize, modernize, and scale Ruby on Rails applications — then connect them to useful AI workflows.
 
-  I am a senior Ruby/Rails developer, DevOps engineer, and technical consultant from Zagreb, Croatia, with 15+ years of experience building production web applications, internal tools, data pipelines, and backend systems.
+  I am a senior Ruby/Rails developer and technical consultant from Zagreb, Croatia, with 15+ years of experience building production web applications, internal tools, data pipelines, and backend systems.
+
+  I have led Rails development teams, and I can also own delivery independently when you need one senior person to take a product, migration, integration, or rescue mission from diagnosis to production.
 
   My best fit is remote contract work where an existing Rails product needs experienced hands: upgrades, refactoring, performance work, production debugging, infrastructure cleanup, payment/CRM integrations, or practical AI/LLM automation.
 
@@ -47,9 +49,10 @@ more_content: | # this will include new lines to allow paragraphs
   - Ruby on Rails development, maintenance, upgrades, and refactoring
   - Rails rescue work: production debugging, performance fixes, test stabilization, and legacy cleanup
   - Hotwire, Turbo, Stimulus, PostgreSQL, Redis, Elastic, background jobs, and pragmatic full-stack Rails
-  - DevOps, Docker, AWS, DigitalOcean, Heroku, CI/CD, monitoring, and server architecture
+  - Production ownership: Docker, AWS, DigitalOcean, Heroku, CI/CD, monitoring, and server architecture
   - Stripe/payment integrations, CRM integrations, admin systems, and internal tools
   - AI/LLM integrations: internal copilots, data extraction, workflow automation, RAG-style search, and agent workflows
+  - Technical leadership for Rails teams, plus independent end-to-end delivery when needed
   - Technical partner / CTO-for-hire support for non-technical founders and small teams
 
   If you have a Rails product that needs to be stabilized, modernized, scaled, or connected to AI/business automation workflows, email me at [vmarcetic@bytecode.hr](mailto:vmarcetic@bytecode.hr).
