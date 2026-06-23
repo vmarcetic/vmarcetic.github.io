@@ -1,6 +1,5 @@
 - name: Bytecode Rails LLMs
   link: huggingface.co/bytecodehr
-  image: bytecode-rails-llms.png
   description: |
     Public Hugging Face models fine-tuned for idiomatic Ruby on Rails code generation.
 
