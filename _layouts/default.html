@@ -72,12 +72,12 @@
           <p>monthly users served by shipped products</p>
         </div>
         <div class="metric-card">
-          <span>250k+</span>
-          <p>records synchronized through production pipelines</p>
+          <span>111k</span>
+          <p>Rails training samples used for public Hugging Face models</p>
         </div>
         <div class="metric-card">
-          <span>EU</span>
-          <p>remote-friendly timezone for US/EU teams</p>
+          <span>250k+</span>
+          <p>records synchronized through production pipelines</p>
         </div>
       </section>
 
@@ -91,7 +91,7 @@
         <div class="project-grid">
           {% for project in site.data.projects %}
             {% assign protocol = project.link | default: '' | strip | slice: 0, 4 %}
-            <article class="project-card{% if forloop.index == 3 %} project-card-featured{% endif %}">
+            <article class="project-card{% if forloop.first %} project-card-featured{% endif %}">
               {% if project.image %}
                 <div class="project-image-wrap{% if project.image_border %} image-border{% endif %}">
                   {% if project.link %}

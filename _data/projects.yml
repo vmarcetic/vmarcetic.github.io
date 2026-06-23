@@ -1,3 +1,52 @@
+- name: Bytecode Rails LLMs
+  link: huggingface.co/bytecodehr
+  description: |
+    Public Hugging Face models fine-tuned for idiomatic Ruby on Rails code generation.
+
+    **Problem:** General coding models often miss team conventions and generate Rails code that looks plausible but does not match how mature Rails products are actually built and maintained.
+
+    **What I did:**
+    - Built and published Bytecode's Rails-focused Hugging Face models
+    - Fine-tuned Qwen3-based models on 111,000 samples from internal Rails projects
+    - Prepared GGUF/Ollama-friendly releases for local development workflows
+    - Documented the dataset engineering, training, quantization, and deployment process
+
+    **Result:** Public Rails-specialized LLMs, including an 8B laptop-friendly model and a 31B MoE flagship model, that encode Bytecode's Rails conventions directly into the weights.
+
+    **Tech:** Hugging Face, Qwen3, QLoRA, Unsloth, GGUF, Ollama, Ruby on Rails
+
+    [8B Rails model](https://huggingface.co/bytecodehr/qwen3-8b-rails) · [31B Rails model](https://huggingface.co/bytecodehr/qwen3-coder-30b-rails)
+
+- name: SayTrue
+  link: saytrue.ai
+  description: |
+    AI customer service platform that answers across chat, voice, and social channels only from approved knowledge, with source citations and human handoff when confidence is low.
+
+    **Problem:** Regulated teams need AI support agents that can explain where answers came from instead of hallucinating or improvising policy-sensitive responses.
+
+    **What I did:**
+    - Built a source-grounded AI support platform for web chat, phone calls, Messenger, and Instagram DMs
+    - Designed workflows around approved knowledge bases, citations, confidence thresholds, and honest fallback
+    - Added voice/transcription flows and supervisor-friendly searchable transcripts
+    - Shipped an EU-hosted, GDPR-aware product with an open changelog and demo/contact funnel
+
+    **Tech:** Ruby on Rails, AI/LLM workflows, RAG, voice transcription, omnichannel messaging, GDPR-aware infrastructure
+
+- name: Uskladi.eu
+  link: uskladi.eu
+  description: |
+    Compliance operating system for Croatian and EU organizations managing GDPR, NIS2, DORA, and EU AI Act obligations.
+
+    **Problem:** Compliance work usually lives across spreadsheets, documents, email threads, scans, and disconnected evidence folders, making audits and ongoing readiness painful.
+
+    **What I did:**
+    - Built a platform for GAP assessments, readiness scoring, registers, findings, evidence, and audit exports
+    - Modeled workflows for GDPR ROPA/DSR/DPIA, NIS2 incident timelines, DORA controls, and EU AI Act inventories
+    - Connected technical scanning and compliance findings into one operational workspace
+    - Localized the product for Croatian organizations and EU regulatory language
+
+    **Tech:** Ruby on Rails, PostgreSQL, compliance workflows, document exports, security scanning, EU regulatory frameworks
+
 - name: Roomsie
   link: roomsie.com
   image: roomsie.jpg
