@@ -4,7 +4,7 @@
 
 # Personal info
 name: Vedran Marčetić
-title: Senior Ruby on Rails Consultant for Rails Rescue, DevOps and AI Integrations
+title: Rails rescue, DevOps, and practical AI
 email: vmarcetic@bytecode.hr
 website: bytecode.hr
 
@@ -24,7 +24,7 @@ linkedin_username: vedran-marčetić-47236320
 about_title: About
 about_profile_image: assets/profile_1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I help founders and product teams stabilize, modernize, and scale Ruby on Rails applications.
+  I help founders and product teams stabilize, modernize, and scale Ruby on Rails applications — then connect them to useful AI workflows.
 
   I am a senior Ruby/Rails developer, DevOps engineer, and technical consultant from Zagreb, Croatia, with 15+ years of experience building production web applications, internal tools, data pipelines, and backend systems.
 
