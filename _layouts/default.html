@@ -123,6 +123,13 @@
                 <div class="rich-text">
                   {{ project.description | strip | markdownify }}
                 </div>
+                {% if project.model_links %}
+                  <div class="model-links" aria-label="Hugging Face model links">
+                    {% for model_link in project.model_links %}
+                      <a href="{{ model_link.url }}" target="_blank" rel="noopener">{{ model_link.label }} <span aria-hidden="true">↗</span></a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
               </div>
             </article>
           {% endfor %}

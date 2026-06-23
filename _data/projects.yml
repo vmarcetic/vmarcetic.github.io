@@ -1,5 +1,6 @@
 - name: Bytecode Rails LLMs
   link: huggingface.co/bytecodehr
+  image: bytecode-rails-llms.png
   description: |
     Public Hugging Face models fine-tuned for idiomatic Ruby on Rails code generation.
 
@@ -14,11 +15,17 @@
     **Result:** Public Rails-specialized LLMs, including an 8B laptop-friendly model and a 31B MoE flagship model, that encode Bytecode's Rails conventions directly into the weights.
 
     **Tech:** Hugging Face, Qwen3, QLoRA, Unsloth, GGUF, Ollama, Ruby on Rails
-
-    [8B Rails model](https://huggingface.co/bytecodehr/qwen3-8b-rails) · [31B Rails model](https://huggingface.co/bytecodehr/qwen3-coder-30b-rails)
+  model_links:
+    - label: 8B Rails model
+      url: https://huggingface.co/bytecodehr/qwen3-8b-rails
+    - label: 31B Rails model
+      url: https://huggingface.co/bytecodehr/qwen3-coder-30b-rails
+    - label: All Bytecode models
+      url: https://huggingface.co/bytecodehr
 
 - name: SayTrue
   link: saytrue.ai
+  image: saytrue.png
   description: |
     AI customer service platform that answers across chat, voice, and social channels only from approved knowledge, with source citations and human handoff when confidence is low.
 
@@ -34,6 +41,7 @@
 
 - name: Uskladi.eu
   link: uskladi.eu
+  image: uskladi.png
   description: |
     Compliance operating system for Croatian and EU organizations managing GDPR, NIS2, DORA, and EU AI Act obligations.
 
@@ -47,35 +55,52 @@
 
     **Tech:** Ruby on Rails, PostgreSQL, compliance workflows, document exports, security scanning, EU regulatory frameworks
 
+- name: Napster
+  link: www.bytecode.hr/projects/napster
+  image: napster.jpg
+  description: |
+    Web backend development and R&D support for one of the most recognizable brands in digital music.
+
+    **Problem:** A large, established streaming platform needed reliable backend contributions and fast technical exploration for a new product initiative.
+
+    **What I did:**
+    - Contributed to web-facing backend systems inside an established product codebase
+    - Supported R&D and prototyping for a new product direction
+    - Worked within existing engineering standards and delivery workflows at scale
+
+    **Tech:** Ruby on Rails, PostgreSQL, Redis
+
 - name: Roomsie
-  link: roomsie.com
+  link: www.bytecode.hr/projects/roomsie
   image: roomsie.jpg
   description: |
     Medium-term housing marketplace for interns, students, and recent graduates in Washington, D.C.
 
-    **Problem:** The product needed ongoing feature development, payment work, and stabilization of an existing Rails codebase.
+    **Problem:** After multiple teams failed to deliver, the product needed a focused senior team to stabilize direction, rebuild, and launch.
 
     **What I did:**
-    - Implemented a new payment gateway
-    - Fixed and optimized existing Rails code and RSpec tests
-    - Built new product features while keeping the production app stable
+    - Took over an existing troubled build and helped move it toward a working product
+    - Implemented payment flows, production features, and core marketplace functionality
+    - Fixed and optimized Rails code and RSpec tests while keeping delivery moving
 
-    **Tech:** Ruby on Rails, PostgreSQL, Redis, Heroku
+    **Result:** Rebuilt and launched a revenue-generating product in 8 months.
+
+    **Tech:** Ruby on Rails, React, PostgreSQL, Redis, Heroku
 
 - name: RaceChip
-  link: racechip.com
+  link: www.bytecode.hr/projects/racechip
   image: racechip2.jpg
   description: |
-    High-growth automotive ecommerce company selling performance tuning chips worldwide.
+    Back-end data system for a high-growth automotive ecommerce company selling performance tuning chips worldwide.
 
-    **Problem:** The business needed reliable backend systems, deployment workflows, and database work to support a rapidly growing international operation.
+    **Problem:** RaceChip needed accurate, scalable tooling for a vehicle/tuning data matrix covering thousands of models, with no room for incorrect tuning values.
 
     **What I did:**
     - Worked on backend systems for a high-traffic commerce/product platform
     - Supported PostgreSQL-backed services and Java application development
     - Helped with AWS/Jenkins-based deployment and operational workflows
 
-    **Tech:** Java, PostgreSQL, AWS, Jenkins
+    **Tech:** Java, Play, PostgreSQL, Redis, AWS, Jenkins
 
 - name: Movieo.me
   link: movieo.me
@@ -98,7 +123,7 @@
     [Fast Company coverage](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
 
 - name: TwoMargins
-  link: twomargins.com
+  link: www.bytecode.hr/projects/twomargins
   image: twomargins.jpg
   image_border: true
   description: |
@@ -117,31 +142,17 @@
 
     [Wall Street Journal coverage](http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets)
 
-- name: Five.agency
-  link: five.agency
+- name: Cora
+  link: www.bytecode.hr/projects/cora
+  image: cora.jpg
   description: |
-    Independent consulting work for Five's U.S. clients on production Rails systems and backend architecture. Most client details are under NDA.
+    Backend development support for an organic period and body care brand with ecommerce and subscription operations.
 
-    **Problem:** Established client products needed senior backend support, integrations, code review, and architecture work.
+    **Problem:** A growing D2C brand needed focused backend help inside an existing production product without disrupting existing workflows.
 
     **What I did:**
-    - Built an event sourcing system used by internal and external applications
-    - Optimized and fixed Rails code and RSpec tests
-    - Helped integration teams adopt event sourcing safely
-    - Reviewed code and introduced pragmatic Rails/backend best practices
-    - Implemented Stripe and PayWhirl integrations
+    - Supported backend services behind product catalog, subscription management, and order processing
+    - Stepped into an existing codebase for targeted delivery
+    - Helped keep ecommerce operations moving for a mission-driven product team
 
-    **Tech:** Ruby on Rails, PostgreSQL, Docker, AWS, MySQL, Cassandra
-
-- name: AI, Automation & Agent Workflows
-  description: |
-    Practical AI/LLM consulting for existing products and internal business workflows.
-
-    **Typical work:**
-    - Internal copilots and admin assistants for existing Rails products
-    - Data extraction, summarization, enrichment, and routing workflows
-    - RAG-style search over documents, knowledge bases, and operational data
-    - Agentic workflows that connect LLMs with APIs, CRMs, email, and internal tools
-    - Evaluation, guardrails, prompt/workflow iteration, and production integration
-
-    **Best fit:** teams that want useful AI features connected to real business systems, not demos that stop at a chat box.
+    **Tech:** Ruby on Rails, PostgreSQL
