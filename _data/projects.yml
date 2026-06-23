@@ -16,12 +16,27 @@
 
     **Tech:** Hugging Face, Qwen3, QLoRA, Unsloth, GGUF, Ollama, Ruby on Rails
   model_links:
-    - label: 8B Rails model
-      url: https://huggingface.co/bytecodehr/qwen3-8b-rails
-    - label: 31B Rails model
+    - size: 31B
+      type: GGUF
+      name: qwen3-coder-30b-rails
+      description: Production-grade Rails code generation. MoE architecture — only 3B params active per token.
       url: https://huggingface.co/bytecodehr/qwen3-coder-30b-rails
-    - label: All Bytecode models
-      url: https://huggingface.co/bytecodehr
+    - size: 8B
+      type: GGUF
+      name: qwen3-8b-rails
+      description: Lightweight model that runs on a laptop. 5 GB download, 8 GB RAM minimum.
+      url: https://huggingface.co/bytecodehr/qwen3-8b-rails
+    - size: 7B
+      type: LoRA
+      name: qwen2.5-coder-7b-rails
+      description: LoRA adapter for Qwen 2.5 Coder 7B. Merge with base model for Rails-tuned generation.
+      url: https://huggingface.co/bytecodehr/qwen2.5-coder-7b-rails
+    - size: 3B
+      type: LoRA
+      name: qwen2.5-coder-3b-rails
+      description: Compact LoRA adapter. Fast inference for code completion and small generation tasks.
+      url: https://huggingface.co/bytecodehr/qwen2.5-coder-3b-rails
+  model_index_url: https://huggingface.co/bytecodehr
 
 - name: SayTrue
   link: saytrue.ai

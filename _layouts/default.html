@@ -124,10 +124,28 @@
                   {{ project.description | strip | markdownify }}
                 </div>
                 {% if project.model_links %}
-                  <div class="model-links" aria-label="Hugging Face model links">
-                    {% for model_link in project.model_links %}
-                      <a href="{{ model_link.url }}" target="_blank" rel="noopener">{{ model_link.label }} <span aria-hidden="true">↗</span></a>
-                    {% endfor %}
+                  <div class="model-showcase" aria-label="Hugging Face model links">
+                    <div class="model-showcase-heading">
+                      <span class="model-eyebrow"><span aria-hidden="true">•</span> Open Source</span>
+                      <h4>Rails-tuned models</h4>
+                      <p>Run locally with Ollama or use the adapters from Hugging Face.</p>
+                    </div>
+                    <div class="model-card-grid">
+                      {% for model_link in project.model_links %}
+                        <a class="model-card" href="{{ model_link.url }}" target="_blank" rel="noopener">
+                          <div class="model-meta">
+                            <span class="model-size">{{ model_link.size }}</span>
+                            <span class="model-type">{{ model_link.type }}</span>
+                          </div>
+                          <h5>{{ model_link.name }}</h5>
+                          <p>{{ model_link.description }}</p>
+                          <span class="model-cta">View on Hugging Face <span aria-hidden="true">↗</span></span>
+                        </a>
+                      {% endfor %}
+                    </div>
+                    {% if project.model_index_url %}
+                      <a class="model-index-link" href="{{ project.model_index_url }}" target="_blank" rel="noopener">View all on Hugging Face <span aria-hidden="true">→</span></a>
+                    {% endif %}
                   </div>
                 {% endif %}
               </div>
