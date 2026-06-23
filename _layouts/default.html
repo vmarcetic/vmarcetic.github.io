@@ -81,8 +81,18 @@
         </div>
       </section>
 
+      <section id="services" class="section-pad services-section">
+        <div class="section-heading compact centered">
+          <p class="eyebrow">How I Can Help</p>
+          <h2>Senior help for Rails stability, speed, and AI leverage.</h2>
+        </div>
+        <div class="services-panel rich-text">
+          {{ site.more_content | strip | markdownify }}
+        </div>
+      </section>
+
       {% if site.data.projects.size > 0 %}
-      <section id="work" class="section-pad">
+      <section id="work" class="section-pad work-section">
         <div class="section-heading">
           <p class="eyebrow">Selected Work</p>
           <h2>Production systems, rescue work, and practical AI automation.</h2>
@@ -119,16 +129,6 @@
         </div>
       </section>
       {% endif %}
-
-      <section id="services" class="section-pad services-section">
-        <div class="section-heading compact">
-          <p class="eyebrow">How I Can Help</p>
-          <h2>Senior help when a Rails product needs stability, speed, or AI leverage.</h2>
-        </div>
-        <div class="services-panel rich-text">
-          {{ site.more_content | strip | markdownify }}
-        </div>
-      </section>
     </main>
 
     <footer class="footer">
