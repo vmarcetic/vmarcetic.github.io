@@ -4,7 +4,7 @@
 
 # Personal info
 name: Vedran Marčetić
-title: Ruby Developer, Consultant at Bytecode
+title: Senior Ruby on Rails Consultant for Rails Rescue, DevOps and AI Integrations
 email: vmarcetic@bytecode.hr
 website: bytecode.hr
 
@@ -21,17 +21,19 @@ linkedin_username: vedran-marčetić-47236320
 # googleplus_username: +jekyll
 
 # About Section
-# about_title: About Me
+about_title: About
 about_profile_image: assets/profile_1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am an experienced Ruby developer, DevOps engineer, and server architect. 
-  
-  I spend most of my time working with Ruby (on Rails), but I’m also experienced with many other languages (Java, PHP, Javascript and more). 
-  
-  In my spare time I tinker with hardware and experiment with new interesting technologies.
+  I help founders and product teams stabilize, modernize, and scale Ruby on Rails applications.
+
+  I am a senior Ruby/Rails developer, DevOps engineer, and technical consultant from Zagreb, Croatia, with 15+ years of experience building production web applications, internal tools, data pipelines, and backend systems.
+
+  My best fit is remote contract work where an existing Rails product needs experienced hands: upgrades, refactoring, performance work, production debugging, infrastructure cleanup, payment/CRM integrations, or practical AI/LLM automation.
+
+  **Available for:** remote contract, freelance, part-time consulting, and CTO-for-hire engagements for founder-led SaaS products.
 
 # Projects Section
-# projects_title: Projects
+projects_title: Selected Work
 
 # Experience Section
 # experience_title: Experience
@@ -40,15 +42,17 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+more_title: How I Can Help
 more_content: | # this will include new lines to allow paragraphs
-  Member of Faculty of Organization and Informatics Student Council (2010 - 2013)
-  
-  Member of University of Zagreb Student Council, Faculty of Organization and Informatics representative (2010 - 2013)
-  
-  Organization of Skills Exchange, an informal gathering of people interested in a particular subject, such as computers, information technology, open source and free software, gnu / linux, programming, databases, etc.
-  
-  Active RubyZG member
+  - Ruby on Rails development, maintenance, upgrades, and refactoring
+  - Rails rescue work: production debugging, performance fixes, test stabilization, and legacy cleanup
+  - Hotwire, Turbo, Stimulus, PostgreSQL, Redis, Elastic, background jobs, and pragmatic full-stack Rails
+  - DevOps, Docker, AWS, DigitalOcean, Heroku, CI/CD, monitoring, and server architecture
+  - Stripe/payment integrations, CRM integrations, admin systems, and internal tools
+  - AI/LLM integrations: internal copilots, data extraction, workflow automation, RAG-style search, and agent workflows
+  - Technical partner / CTO-for-hire support for non-technical founders and small teams
+
+  If you have a Rails product that needs to be stabilized, modernized, scaled, or connected to AI/business automation workflows, email me at [vmarcetic@bytecode.hr](mailto:vmarcetic@bytecode.hr).
 
 # Footer
 footer_show_references: true

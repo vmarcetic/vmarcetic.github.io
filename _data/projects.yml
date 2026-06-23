@@ -2,67 +2,97 @@
   link: roomsie.com
   image: roomsie.jpg
   description: |
-    Roomsie is an online marketplace that connects hosts with interns, students, and recent graduates looking for medium-term housing in Washington, D.C.
-    Some of the things I did:
+    Medium-term housing marketplace for interns, students, and recent graduates in Washington, D.C.
+
+    **Problem:** The product needed ongoing feature development, payment work, and stabilization of an existing Rails codebase.
+
+    **What I did:**
     - Implemented a new payment gateway
-    - Optimised and fixed existing code and RSpec tests
-    - New features development
-    
-    *Tech: Ruby On Rails, PostgreSQL, Redis, Heroku*
+    - Fixed and optimized existing Rails code and RSpec tests
+    - Built new product features while keeping the production app stable
+
+    **Tech:** Ruby on Rails, PostgreSQL, Redis, Heroku
 
 - name: RaceChip
   link: racechip.com
   image: racechip2.jpg
   description: |
-    RaceChip manufactures and sells high-performance engine tuning chips for all car makes and models, resulting in less fuel consumption and up to 30% more horsepower. The company is growing rapidly and has sold over half a million chips worldwide as of early 2016.
-    
-    *Tech: Java, PostgreSQL, AWS, Jenkins*
+    High-growth automotive ecommerce company selling performance tuning chips worldwide.
+
+    **Problem:** The business needed reliable backend systems, deployment workflows, and database work to support a rapidly growing international operation.
+
+    **What I did:**
+    - Worked on backend systems for a high-traffic commerce/product platform
+    - Supported PostgreSQL-backed services and Java application development
+    - Helped with AWS/Jenkins-based deployment and operational workflows
+
+    **Tech:** Java, PostgreSQL, AWS, Jenkins
 
 - name: Movieo.me
   link: movieo.me
   image: movieo.jpg
   description: |
-    A passion project I’ve been working on in my spare time with two other colleagues. It's a well designed movie aggregator with ratings from IMDB, Rotten Tomatoes, and Metacritic — a go-to place for finding a movie to watch.
-    It was featured on Hacker News and Product Hunt front pages for over a day, and is currently being used by more than 100,000 people every month.
-    Some of the things I did:
-    - Wrote automated rake scripts which collected movie-related data from several API's such as TMDB, OMDB and more.
-    - Implemented advanced caching and data delivery mechanisms using Elastic and Redis to make Movieo incredibly performant and pleasant to use.
-    - Made sure that over 250,000 movies were updated on a daily basis.
-    - Created a complex movie filtering and recommendation system that produced the best discovery experience and outperformed the competition.
-    
-    *Tech: Ruby On Rails, PostgreSQL, Elastic, Redis, Thumbor*
+    Movie discovery platform aggregating ratings and metadata from IMDB, Rotten Tomatoes, Metacritic, TMDB, OMDB, and other sources. Featured on Hacker News, Product Hunt, and Fast Company; used by 100,000+ people per month at its peak.
 
-    [http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
+    **Problem:** People needed a fast, pleasant way to discover what to watch across a large movie catalog with fragmented data sources.
+
+    **What I did:**
+    - Built automated ingestion/update pipelines for 250,000+ movies
+    - Designed caching and data delivery with Elastic and Redis for a fast user experience
+    - Implemented advanced filtering and recommendation flows for movie discovery
+    - Kept external API data synchronized and production-ready through background jobs
+
+    **Result:** A high-traffic, widely shared product with strong community reception and reliable daily data refreshes.
+
+    **Tech:** Ruby on Rails, PostgreSQL, Elastic, Redis, Thumbor
+
+    [Fast Company coverage](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
 
 - name: TwoMargins
   link: twomargins.com
   image: twomargins.jpg
   image_border: true
   description: |
-    Two Margins wants to change the way financial information is analyzed. It uses the wisdom of the crowd to help users gain financial insight and advantage. It allows financial experts to annotate and comment U.S. Securities and Exchange Commission issued reports and other financial/ political documents.
-    After experimenting with a couple of prototypes we built the project from scratch. I was responsible for developing and deploying the back-end and setting up the servers.
-    Some of the things I did:
-    - Gathered data from SEC’s Electronic Data Gathering, Analysis, and Retrieval systems.
-    - Built a complex Nokogiri powered HTML parsing system that allowed us to annotate heavy financial documents made of deeply and irregularly nested HTML.
-    - Supported product owners during peak traffic times and important document releases, for example during U.S. presidential elections.
-    - Integrated TwoMargins annotating interface into multiple external partner platforms.
-    - Onboarded and trained new hires once the project matured.
-    
-    *Tech: Ruby On Rails, PostgreSQL, Nokogiri*
-    
-    [http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets](http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets)
+    Collaborative financial research platform for annotating SEC filings and other complex financial and political documents.
+
+    **Problem:** SEC filings are large, irregular HTML documents that are difficult to parse, annotate, and integrate into partner workflows.
+
+    **What I did:**
+    - Built the Rails backend and deployed the production infrastructure from scratch
+    - Created a Nokogiri-powered parser for deeply nested SEC HTML documents
+    - Integrated the annotation interface into external partner platforms
+    - Supported product owners during peak-traffic document releases and U.S. election cycles
+    - Onboarded and trained developers as the project matured
+
+    **Tech:** Ruby on Rails, PostgreSQL, Nokogiri
+
+    [Wall Street Journal coverage](http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets)
 
 - name: Five.agency
   link: five.agency
   description: |
-    Five is the leading Croatian full-service agency for web and mobile development. I’ve joined Five as an independent consultant for their US based clients.
-    I can’t disclose much about my engagements since most of what I did is under NDA.
-    - Built event sourcing system that was used by both internal and external applications
-    - Optimised and fixed existing code and RSpec tests
-    - Helped integration teams during the integration of event sourcing
-    system
-    - Done a lot of code reviews and implemented some of the best
-    practices
-    - Implemented Stripe and Paywhirl
+    Independent consulting work for Five's U.S. clients on production Rails systems and backend architecture. Most client details are under NDA.
 
-    *Tech: Ruby On Rails, PostgreSQL, Docker, AWS, MySQL, Cassandra*
+    **Problem:** Established client products needed senior backend support, integrations, code review, and architecture work.
+
+    **What I did:**
+    - Built an event sourcing system used by internal and external applications
+    - Optimized and fixed Rails code and RSpec tests
+    - Helped integration teams adopt event sourcing safely
+    - Reviewed code and introduced pragmatic Rails/backend best practices
+    - Implemented Stripe and PayWhirl integrations
+
+    **Tech:** Ruby on Rails, PostgreSQL, Docker, AWS, MySQL, Cassandra
+
+- name: AI, Automation & Agent Workflows
+  description: |
+    Practical AI/LLM consulting for existing products and internal business workflows.
+
+    **Typical work:**
+    - Internal copilots and admin assistants for existing Rails products
+    - Data extraction, summarization, enrichment, and routing workflows
+    - RAG-style search over documents, knowledge bases, and operational data
+    - Agentic workflows that connect LLMs with APIs, CRMs, email, and internal tools
+    - Evaluation, guardrails, prompt/workflow iteration, and production integration
+
+    **Best fit:** teams that want useful AI features connected to real business systems, not demos that stop at a chat box.
