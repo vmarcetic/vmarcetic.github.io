@@ -1,36 +1,148 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en " }}">
-
-{%- include head.html -%}
-
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.name }} | {{ site.title }}</title>
+  {%- seo title=false -%}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
 <body>
+  <div class="site-shell">
+    <div class="orb orb-one"></div>
+    <div class="orb orb-two"></div>
+    <div class="grid-glow"></div>
 
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-
-            {%- include about.html -%}
-
-            {%- if site.data.projects.size > 0 -%}
-                {%- include projects.html -%}
-            {%- endif -%}
-
-            {%- if site.data.experience.size > 0 -%}
-                {%- include experience.html -%}
-            {%- endif -%}
-
-            {%- if site.data.education.size > 0 -%}
-                {%- include education.html -%}
-            {%- endif -%}
-
-            {%- include more.html -%}
-
+    <header class="nav-wrap">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.name }} home">
+          <span class="brand-mark">VM</span>
+          <span>{{ site.name }}</span>
+        </a>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="mailto:{{ site.email }}">Contact</a>
         </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Available for remote contract work</p>
+          <h1>{{ site.title }}</h1>
+          <div class="hero-text">
+            {{ site.about_content | strip | markdownify }}
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:{{ site.email }}">Start a conversation</a>
+            <a class="btn btn-secondary" href="#work">View selected work</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Profile summary">
+          {% if site.about_profile_image %}
+            <img class="profile-image" src="{{ site.about_profile_image | relative_url }}" alt="{{ site.name }}">
+          {% endif %}
+          <div class="card-content">
+            <p class="mono-label">Zagreb, Croatia · EU timezone</p>
+            <h2>Rails, DevOps & AI systems for real products.</h2>
+            <ul class="signal-list">
+              <li>15+ years building production web apps</li>
+              <li>Ruby on Rails, PostgreSQL, Redis, Elastic</li>
+              <li>Infrastructure, payments, CRMs, internal tools</li>
+              <li>LLM integrations and agentic workflows</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+
+      <section class="metrics section-tight" aria-label="Highlights">
+        <div class="metric-card">
+          <span>15+</span>
+          <p>years of backend and Rails consulting</p>
+        </div>
+        <div class="metric-card">
+          <span>100k+</span>
+          <p>monthly users served by shipped products</p>
+        </div>
+        <div class="metric-card">
+          <span>250k+</span>
+          <p>records synchronized through production pipelines</p>
+        </div>
+        <div class="metric-card">
+          <span>EU</span>
+          <p>remote-friendly timezone for US/EU teams</p>
+        </div>
+      </section>
+
+      {% if site.data.projects.size > 0 %}
+      <section id="work" class="section-pad">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Production systems, rescue work, and practical AI automation.</h2>
+        </div>
+
+        <div class="project-grid">
+          {% for project in site.data.projects %}
+            {% assign protocol = project.link | default: '' | strip | slice: 0, 4 %}
+            <article class="project-card{% if forloop.index == 3 %} project-card-featured{% endif %}">
+              {% if project.image %}
+                <div class="project-image-wrap{% if project.image_border %} image-border{% endif %}">
+                  {% if project.link %}
+                    <a href="{% if protocol != 'http' %}https://{% endif %}{{ project.link }}" target="_blank" rel="noopener">
+                      <img src="{{ '/assets/' | append: project.image | relative_url }}" alt="{{ project.name }} screenshot">
+                    </a>
+                  {% else %}
+                    <img src="{{ '/assets/' | append: project.image | relative_url }}" alt="{{ project.name }} screenshot">
+                  {% endif %}
+                </div>
+              {% endif %}
+              <div class="project-body">
+                <div class="project-topline">
+                  <h3>{{ project.name }}</h3>
+                  {% if project.link %}
+                    <a class="project-link" href="{% if protocol != 'http' %}https://{% endif %}{{ project.link }}" target="_blank" rel="noopener">{{ project.link }}</a>
+                  {% endif %}
+                </div>
+                <div class="rich-text">
+                  {{ project.description | strip | markdownify }}
+                </div>
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      <section id="services" class="section-pad services-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">How I Can Help</p>
+          <h2>Senior help when a Rails product needs stability, speed, or AI leverage.</h2>
+        </div>
+        <div class="services-panel rich-text">
+          {{ site.more_content | strip | markdownify }}
+        </div>
+      </section>
     </main>
 
-    {%- include footer.html -%}
-
+    <footer class="footer">
+      <div>
+        <p class="footer-title">{{ site.name }}</p>
+        <p>Senior Ruby on Rails Consultant · DevOps · AI Integrations</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {% if site.github_username %}<a href="https://github.com/{{ site.github_username | strip }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+        {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.website %}<a href="https://{{ site.website }}" target="_blank" rel="noopener">Bytecode</a>{% endif %}
+      </div>
+    </footer>
+  </div>
 </body>
-
 </html>
