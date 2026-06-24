@@ -186,3 +186,17 @@
     - Helped keep ecommerce operations moving for a mission-driven product team
 
     **Tech:** Ruby on Rails, PostgreSQL
+
+- name: FanJolt
+  link: fanjolt.com
+  description: |
+    Fan engagement platform connecting audiences with celebrities and creators across sports, music, entertainment, and pop culture.
+
+    **Problem:** Consumer fan platforms need reliable product flows for live access, paid experiences, celebrity/talent management, and audience engagement without making the experience feel transactional.
+
+    **What I did:**
+    - Worked on Ruby/Rails product development for a fan-to-celebrity engagement platform
+    - Supported product flows around talent, fan interactions, and consumer-facing experiences
+    - Brought practical experience from music/community products into a broader entertainment platform
+
+    **Tech:** Ruby on Rails, PostgreSQL, consumer product workflows, fan engagement platforms
