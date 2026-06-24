@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SayTrue.ai mark</title>
+  <desc id="desc">Verified conversation icon for SayTrue.ai.</desc>
+  <defs>
+    <linearGradient id="saytrue-mark" x1="104" y1="96" x2="408" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="0.52" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="56" y="64" width="400" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#1D4ED8" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft-shadow)">
+    <rect x="96" y="96" width="320" height="320" rx="88" fill="url(#saytrue-mark)"/>
+    <path d="M178 189C178 170.775 192.775 156 211 156H309C337.167 156 360 178.833 360 207V276C360 304.167 337.167 327 309 327H257L201 372V327H211C192.775 327 178 312.225 178 294V189Z" fill="white" fill-opacity="0.16"/>
+    <path d="M180 255L233 308L337 194" stroke="white" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="362" cy="153" r="18" fill="white" fill-opacity="0.94"/>
+  </g>
+</svg>
