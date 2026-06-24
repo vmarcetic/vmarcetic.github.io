@@ -70,7 +70,7 @@
     **Tech:** Ruby on Rails, PostgreSQL, compliance workflows, document exports, security scanning, EU regulatory frameworks
 
 - name: Napster
-  link: www.bytecode.hr/projects/napster
+  link: www.napster.com
   image: napster.jpg
   description: |
     Web backend development and R&D support for one of the most recognizable brands in digital music.
@@ -101,7 +101,7 @@
     **Tech:** Ruby on Rails, music streaming products, subscription-style product workflows, production backend systems
 
 - name: Roomsie
-  link: www.bytecode.hr/projects/roomsie
+  link: roomsie.com
   image: roomsie.jpg
   description: |
     Medium-term housing marketplace for interns, students, and recent graduates in Washington, D.C.
@@ -118,7 +118,7 @@
     **Tech:** Ruby on Rails, React, PostgreSQL, Redis, Heroku
 
 - name: RaceChip
-  link: www.bytecode.hr/projects/racechip
+  link: www.racechip.com
   image: racechip2.jpg
   description: |
     Back-end data system for a high-growth automotive ecommerce company selling performance tuning chips worldwide.
@@ -153,7 +153,7 @@
     [Fast Company coverage](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
 
 - name: TwoMargins
-  link: www.bytecode.hr/projects/twomargins
+  link: www.twomargins.com
   image: twomargins.jpg
   image_border: true
   description: |
@@ -173,7 +173,7 @@
     [Wall Street Journal coverage](http://blogs.wsj.com/moneybeat/2014/08/01/using-the-wisdom-of-the-crowd-to-democratize-markets)
 
 - name: Cora
-  link: www.bytecode.hr/projects/cora
+  link: cora.com
   image: cora.jpg
   description: |
     Backend development support for an organic period and body care brand with ecommerce and subscription operations.
