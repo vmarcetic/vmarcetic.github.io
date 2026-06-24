@@ -1,0 +1,99 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="0.55" stop-color="#EEF7FF"/>
+      <stop offset="1" stop-color="#FFF8EF"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="155" y1="94" x2="1362" y2="776" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071826"/>
+      <stop offset="0.52" stop-color="#082235"/>
+      <stop offset="1" stop-color="#02070D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="430" y1="140" x2="1090" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5EEAD4" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#38BDF8" stop-opacity="0.74"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="shadow" x="70" y="52" width="1460" height="850" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="42" flood-color="#29445F" flood-opacity="0.22"/>
+    </filter>
+    <filter id="soft" x="0" y="0" width="1600" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="295" cy="176" r="210" fill="#C7F9EF" fill-opacity="0.42" filter="url(#soft)"/>
+  <circle cx="1260" cy="150" r="260" fill="#DCEBFF" fill-opacity="0.68" filter="url(#soft)"/>
+  <circle cx="1140" cy="770" r="280" fill="#FFE1C2" fill-opacity="0.45" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="118" y="84" width="1364" height="790" rx="56" fill="white"/>
+    <rect x="153" y="119" width="1294" height="720" rx="42" fill="url(#hero)"/>
+    <path d="M153 356C357 255 533 281 718 336C882 385 1016 399 1147 311C1240 249 1336 217 1447 232V119H153V356Z" fill="url(#accent)" fill-opacity="0.16"/>
+    <path d="M193 731C370 654 525 679 686 727C829 770 946 780 1060 712C1141 664 1224 638 1321 650" stroke="#53E3D3" stroke-opacity="0.12" stroke-width="2"/>
+    <path d="M153 235H1447M153 365H1447M153 495H1447M153 625H1447M355 119V839M557 119V839M759 119V839M961 119V839M1163 119V839M1365 119V839" stroke="white" stroke-opacity="0.045"/>
+
+    <g transform="translate(225 165)">
+      <rect x="0" y="0" width="24" height="24" rx="7" fill="url(#blue)"/>
+      <path d="M6 12.5L10.2 16.7L18.2 7.8" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="36" y="20" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="760" letter-spacing="-0.8" fill="#F8FAFC">SayTrue</text>
+      <text x="595" y="19" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="650" fill="#C9D7E7">Product</text>
+      <text x="695" y="19" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="650" fill="#C9D7E7">Changelog</text>
+      <text x="815" y="19" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="650" fill="#C9D7E7">Contact</text>
+      <rect x="1018" y="-8" width="124" height="38" rx="19" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+      <text x="1043" y="16" font-family="Inter, ui-sans-serif, system-ui" font-size="14" font-weight="760" fill="#F8FAFC">Book a demo</text>
+    </g>
+
+    <g transform="translate(225 264)">
+      <rect x="0" y="0" width="394" height="34" rx="17" fill="#102D42" stroke="#26495E"/>
+      <text x="18" y="23" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="760" letter-spacing="0.8" fill="#5EEAD4">SOURCE-GROUNDED AI SUPPORT</text>
+      <text x="0" y="118" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="66" font-weight="820" letter-spacing="-3.4" fill="#FFFFFF">AI support that</text>
+      <text x="0" y="188" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="66" font-weight="820" letter-spacing="-3.4" fill="#FFFFFF">tells the truth.</text>
+      <text x="0" y="252" font-family="Inter, ui-sans-serif, system-ui" font-size="28" font-weight="520" fill="#C8D8E6">Answers only from approved knowledge,</text>
+      <text x="0" y="289" font-family="Inter, ui-sans-serif, system-ui" font-size="28" font-weight="520" fill="#C8D8E6">cites sources, and hands off instead of guessing.</text>
+      <rect x="0" y="354" width="176" height="58" rx="29" fill="#F8FAFC"/>
+      <text x="34" y="391" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="820" fill="#071826">Book a demo</text>
+      <rect x="196" y="354" width="218" height="58" rx="29" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.14"/>
+      <text x="228" y="391" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="760" fill="#EAF7FF">Explore platform</text>
+    </g>
+
+    <g transform="translate(890 252)">
+      <rect x="0" y="0" width="426" height="502" rx="34" fill="#F8FCFF" fill-opacity="0.98"/>
+      <rect x="24" y="24" width="378" height="56" rx="19" fill="#E8F5FF"/>
+      <text x="48" y="59" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="780" fill="#083344">SayTrue assistant</text>
+      <circle cx="360" cy="52" r="8" fill="#10B981"/>
+      <rect x="28" y="116" width="232" height="40" rx="20" fill="#ECFDF5"/>
+      <text x="50" y="142" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="720" fill="#047857">Flight OU412</text>
+      <rect x="274" y="116" width="104" height="40" rx="20" fill="#EFF6FF"/>
+      <text x="296" y="142" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="720" fill="#1D4ED8">EU 261</text>
+      <rect x="28" y="190" width="310" height="94" rx="24" fill="#FFFFFF" stroke="#DDEAF5"/>
+      <text x="52" y="225" font-family="Inter, ui-sans-serif, system-ui" font-size="17" font-weight="700" fill="#102033">For a delay over three hours,</text>
+      <text x="52" y="253" font-family="Inter, ui-sans-serif, system-ui" font-size="17" font-weight="700" fill="#102033">you're entitled to €250.</text>
+      <rect x="28" y="304" width="370" height="82" rx="24" fill="#F0F9FF" stroke="#BAE6FD"/>
+      <text x="54" y="337" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="800" fill="#0369A1">SOURCE CITED</text>
+      <text x="54" y="365" font-family="Inter, ui-sans-serif, system-ui" font-size="17" font-weight="700" fill="#0F172A">Passenger rights · EU 261 · 0.94</text>
+      <rect x="28" y="414" width="164" height="44" rx="22" fill="#0F172A"/>
+      <text x="55" y="442" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="800" fill="#FFFFFF">Grounded</text>
+      <rect x="206" y="414" width="172" height="44" rx="22" fill="#FFF7ED" stroke="#FED7AA"/>
+      <text x="234" y="442" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="800" fill="#C2410C">No guessing</text>
+    </g>
+
+    <g transform="translate(225 760)">
+      <rect x="0" y="0" width="196" height="42" rx="21" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+      <circle cx="25" cy="21" r="6" fill="#5EEAD4"/>
+      <text x="43" y="27" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="760" fill="#DFFBF8">Omnichannel</text>
+      <rect x="214" y="0" width="214" height="42" rx="21" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+      <circle cx="239" cy="21" r="6" fill="#38BDF8"/>
+      <text x="257" y="27" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="760" fill="#E0F6FF">Source-grounded</text>
+      <rect x="446" y="0" width="232" height="42" rx="21" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.12"/>
+      <circle cx="471" cy="21" r="6" fill="#A78BFA"/>
+      <text x="489" y="27" font-family="Inter, ui-sans-serif, system-ui" font-size="16" font-weight="760" fill="#F0E9FF">Voice transcripts</text>
+    </g>
+  </g>
+</svg>
