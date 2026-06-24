@@ -81,8 +81,23 @@
     - Contributed to web-facing backend systems inside an established product codebase
     - Supported R&D and prototyping for a new product direction
     - Worked within existing engineering standards and delivery workflows at scale
+    - Brought practical subscription/media-product experience from the broader Rhapsody/Napster ecosystem
 
     **Tech:** Ruby on Rails, PostgreSQL, Redis
+
+- name: Gimme Radio
+  link: gimmeradio.com
+  description: |
+    Music streaming/community product work in the same digital music lineage as Napster and Rhapsody.
+
+    **Problem:** Niche music communities need more than a generic catalog: they need programming, live context, discovery, subscriptions, and reliable fan-facing product flows.
+
+    **What I did:**
+    - Worked on production product/backend development for a music streaming and fan community platform
+    - Applied experience from subscription-style media products and the Napster/Rhapsody ecosystem
+    - Helped support consumer-facing music product workflows where reliability and iteration speed mattered
+
+    **Tech:** Ruby on Rails, music streaming products, subscription-style product workflows, production backend systems
 
 - name: Roomsie
   link: www.bytecode.hr/projects/roomsie
