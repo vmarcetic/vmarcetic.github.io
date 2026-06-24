@@ -201,3 +201,37 @@
     - Brought practical experience from music/community products into a broader entertainment platform
 
     **Tech:** Ruby on Rails, PostgreSQL, consumer product workflows, fan engagement platforms
+
+- name: SessionM
+  link: www.bytecode.hr/projects/sessionm
+  image: sessionm.jpg
+  description: |
+    Data ingestion system for SessionM, a customer engagement and loyalty platform later acquired by Mastercard.
+
+    **Problem:** Loyalty and personalization platforms depend on high-volume customer interaction data arriving reliably from many sources, with no room for silent data loss or fragile processing.
+
+    **What I did:**
+    - Built Ruby/Rails-backed ingestion workflows for customer events, profile updates, and interaction data
+    - Focused on reliability, validation, recovery, and data integrity across the processing pipeline
+    - Helped support the infrastructure behind data-driven loyalty and personalization experiences
+
+    **Result:** A foundational ingestion system supporting SessionM's customer engagement platform before its acquisition by Mastercard.
+
+    **Tech:** Ruby on Rails, PostgreSQL, Redis, data ingestion, customer engagement platforms
+
+- name: Bib + Tuck
+  link: www.instagram.com/bibandtuck
+  image: bib-tuck.jpg
+  description: |
+    Members-only fashion marketplace for women to exchange clothing and accessories, covered by Vogue and Crunchbase.
+
+    **Problem:** Fashion resale and closet-sharing products need to make inventory listing, discovery, social trust, and purchase flows feel editorial and community-driven rather than like a generic marketplace.
+
+    **What I did:**
+    - Worked on product development for a consumer fashion marketplace
+    - Supported marketplace-style flows around listings, profiles, discovery, and transactions
+    - Brought production Ruby/product experience to a design-sensitive consumer ecommerce product
+
+    **Tech:** Ruby on Rails, marketplace workflows, consumer ecommerce, fashion/social commerce
+
+    [Vogue coverage](https://www.vogue.com/article/wardrobe-in-need-of-overhaul-try-bib-tuck)
