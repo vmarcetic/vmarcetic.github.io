@@ -117,20 +117,20 @@
 
     **Tech:** Ruby on Rails, React, PostgreSQL, Redis, Heroku
 
-- name: RaceChip
-  link: www.racechip.com
+- name: RaceChip / RaceChip.hr
+  link: racechip.hr
   image: racechip2.jpg
   description: |
-    Back-end data system for a high-growth automotive ecommerce company selling performance tuning chips worldwide.
+    Automotive ecommerce and product-data work around performance tuning chips, including a new RaceChip.hr webshop being built on Spree.
 
-    **Problem:** RaceChip needed accurate, scalable tooling for a vehicle/tuning data matrix covering thousands of models, with no room for incorrect tuning values.
+    **Problem:** Vehicle tuning ecommerce needs accurate product fitment data, reliable catalog workflows, and a storefront that can handle model-specific compatibility without confusing buyers.
 
     **What I did:**
     - Worked on backend systems for a high-traffic commerce/product platform
-    - Supported PostgreSQL-backed services and Java application development
-    - Helped with AWS/Jenkins-based deployment and operational workflows
+    - Supported PostgreSQL-backed services and product data workflows
+    - Building up a new RaceChip.hr webshop on Spree for the Croatian market
 
-    **Tech:** Java, Play, PostgreSQL, Redis, AWS, Jenkins
+    **Tech:** Ruby on Rails, Spree, PostgreSQL, ecommerce, product-data systems
 
 - name: Movieo.me
   link: movieo.me
