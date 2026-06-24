@@ -86,9 +86,10 @@
     **Tech:** Ruby on Rails, PostgreSQL, Redis
 
 - name: Gimme Radio
-  link: gimmeradio.com
+  link: gimmemetal.com
+  image: gimme-radio.jpg
   description: |
-    Music streaming/community product work in the same digital music lineage as Napster and Rhapsody.
+    Music streaming/community product work for Gimme Radio — now Gimme Metal — in the same digital music lineage as Napster and Rhapsody.
 
     **Problem:** Niche music communities need more than a generic catalog: they need programming, live context, discovery, subscriptions, and reliable fan-facing product flows.
 
