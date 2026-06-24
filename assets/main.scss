@@ -445,7 +445,12 @@ main,
   grid-column: span 2;
 }
 
-.project-card-featured .project-body {
+.project-grid > .project-card:last-child:nth-child(even) {
+  grid-column: span 2;
+}
+
+.project-card-featured .project-body,
+.project-grid > .project-card:last-child:nth-child(even) .project-body {
   columns: 2 320px;
   column-gap: 34px;
 }
@@ -771,11 +776,13 @@ main,
     grid-template-columns: 1fr;
   }
 
-  .project-card-featured {
+  .project-card-featured,
+  .project-grid > .project-card:last-child:nth-child(even) {
     grid-column: auto;
   }
 
-  .project-card-featured .project-body {
+  .project-card-featured .project-body,
+  .project-grid > .project-card:last-child:nth-child(even) .project-body {
     columns: auto;
   }
 
