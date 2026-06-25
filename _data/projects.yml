@@ -117,20 +117,35 @@
 
     **Tech:** Ruby on Rails, React, PostgreSQL, Redis, Heroku
 
-- name: RaceChip
+- name: RaceChip.hr
+  link: racechip.hr
+  image: racechip.jpg
+  description: |
+    Croatian-market RaceChip webshop built on Spree as a separate ecommerce project from RaceChip.com.
+
+    **Problem:** Vehicle tuning ecommerce needs a clear localized storefront where buyers can find compatible products and complete purchases without confusion.
+
+    **What I did:**
+    - Built the RaceChip.hr webshop on Spree
+    - Focused on ecommerce storefront flows for the Croatian market
+    - Kept this as a separate webshop project from the RaceChip.com application work
+
+    **Tech:** Ruby on Rails, Spree, PostgreSQL, ecommerce
+
+- name: RaceChip.com
   link: www.racechip.com
   image: racechip2.jpg
   description: |
-    Backend and ecommerce/product-data work around RaceChip's international performance tuning commerce platform, plus a new RaceChip.hr webshop build on Spree for the Croatian market.
+    Java application work for RaceChip, the performance tuning company behind RaceChip.com.
 
-    **Problem:** Vehicle tuning ecommerce needs accurate product fitment data, reliable catalog workflows, and storefront flows that can handle model-specific compatibility without confusing buyers.
+    **Problem:** Established automotive product companies need reliable custom software around their operational and product workflows, separate from regional webshop builds.
 
     **What I did:**
-    - Worked on backend systems for the RaceChip.com commerce/product platform
-    - Supported PostgreSQL-backed services and product data workflows
-    - Building a new RaceChip.hr webshop on Spree as a separate Croatian-market storefront
+    - Building a Java application for RaceChip
+    - Working in a separate project context from the RaceChip.hr Spree webshop
+    - Supporting software delivery for the RaceChip.com company/product ecosystem
 
-    **Tech:** Ruby on Rails, Spree, PostgreSQL, ecommerce, product-data systems
+    **Tech:** Java, application development, automotive product workflows
 
 - name: Goop Webshop Consulting
   link: goop.com
@@ -183,25 +198,22 @@
 
     [Hamburg Messe annual report](https://www.hmc-annualreport2020.com/vaccination-center)
 
-- name: Movieo.me
-  link: movieo.me
-  image: movieo.jpg
+- name: SessionM
+  link: www.bytecode.hr/projects/sessionm
+  image: sessionm.jpg
   description: |
-    Movie discovery platform aggregating ratings and metadata from IMDB, Rotten Tomatoes, Metacritic, TMDB, OMDB, and other sources. Featured on Hacker News, Product Hunt, and Fast Company; used by 100,000+ people per month at its peak.
+    Data ingestion system for SessionM, a customer engagement and loyalty platform later acquired by Mastercard.
 
-    **Problem:** People needed a fast, pleasant way to discover what to watch across a large movie catalog with fragmented data sources.
+    **Problem:** Loyalty and personalization platforms depend on high-volume customer interaction data arriving reliably from many sources, with no room for silent data loss or fragile processing.
 
     **What I did:**
-    - Built automated ingestion/update pipelines for 250,000+ movies
-    - Designed caching and data delivery with Elastic and Redis for a fast user experience
-    - Implemented advanced filtering and recommendation flows for movie discovery
-    - Kept external API data synchronized and production-ready through background jobs
+    - Built Ruby/Rails-backed ingestion workflows for customer events, profile updates, and interaction data
+    - Focused on reliability, validation, recovery, and data integrity across the processing pipeline
+    - Helped support the infrastructure behind data-driven loyalty and personalization experiences
 
-    **Result:** A high-traffic, widely shared product with strong community reception and reliable daily data refreshes.
+    **Result:** A foundational ingestion system supporting SessionM's customer engagement platform before its acquisition by Mastercard.
 
-    **Tech:** Ruby on Rails, PostgreSQL, Elastic, Redis, Thumbor
-
-    [Fast Company coverage](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
+    **Tech:** Ruby on Rails, PostgreSQL, Redis, data ingestion, customer engagement platforms
 
 - name: TwoMargins
   link: www.twomargins.com
@@ -253,22 +265,25 @@
 
     **Tech:** Ruby on Rails, PostgreSQL, consumer product workflows, fan engagement platforms
 
-- name: SessionM
-  link: www.bytecode.hr/projects/sessionm
-  image: sessionm.jpg
+- name: Movieo.me
+  link: movieo.me
+  image: movieo.jpg
   description: |
-    Data ingestion system for SessionM, a customer engagement and loyalty platform later acquired by Mastercard.
+    Movie discovery platform aggregating ratings and metadata from IMDB, Rotten Tomatoes, Metacritic, TMDB, OMDB, and other sources. Featured on Hacker News, Product Hunt, and Fast Company; used by 100,000+ people per month at its peak.
 
-    **Problem:** Loyalty and personalization platforms depend on high-volume customer interaction data arriving reliably from many sources, with no room for silent data loss or fragile processing.
+    **Problem:** People needed a fast, pleasant way to discover what to watch across a large movie catalog with fragmented data sources.
 
     **What I did:**
-    - Built Ruby/Rails-backed ingestion workflows for customer events, profile updates, and interaction data
-    - Focused on reliability, validation, recovery, and data integrity across the processing pipeline
-    - Helped support the infrastructure behind data-driven loyalty and personalization experiences
+    - Built automated ingestion/update pipelines for 250,000+ movies
+    - Designed caching and data delivery with Elastic and Redis for a fast user experience
+    - Implemented advanced filtering and recommendation flows for movie discovery
+    - Kept external API data synchronized and production-ready through background jobs
 
-    **Result:** A foundational ingestion system supporting SessionM's customer engagement platform before its acquisition by Mastercard.
+    **Result:** A high-traffic, widely shared product with strong community reception and reliable daily data refreshes.
 
-    **Tech:** Ruby on Rails, PostgreSQL, Redis, data ingestion, customer engagement platforms
+    **Tech:** Ruby on Rails, PostgreSQL, Elastic, Redis, Thumbor
+
+    [Fast Company coverage](http://www.fastcodesign.com/3038294/can-a-new-web-app-help-solve-the-what-movie-should-we-watch-conundrum)
 
 - name: Bib + Tuck
   link: www.instagram.com/bibandtuck
