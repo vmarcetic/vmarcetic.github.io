@@ -1,0 +1,13 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SayTrue.ai logo">
+<defs><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.10"/></filter></defs>
+<rect width="1000" height="260" fill="white"/>
+<g transform="translate(56 40)" filter="url(#shadow)">
+  <rect x="0" y="0" width="180" height="180" rx="48" fill="#07111F"/>
+  <path d="M122 49C101 31 59 36 51 67C43 99 88 103 112 111C139 120 140 152 113 167C86 181 50 168 37 149" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="134" cy="42" r="10" fill="#22D3EE"/>
+  <circle cx="43" cy="153" r="7" fill="#38BDF8"/>
+  <path d="M134 42L156 42" stroke="#22D3EE" stroke-width="7" stroke-linecap="round"/>
+</g>
+<text x="294" y="163" font-family="Inter, Satoshi, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="104" font-weight="780" letter-spacing="-5.4" fill="#07111F">SayTrue</text>
+<text x="724" y="161" font-family="Inter, Satoshi, Manrope, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="56" font-weight="650" letter-spacing="-1.8" fill="#64748B">.ai</text>
+</svg>
