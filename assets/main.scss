@@ -472,6 +472,11 @@ main,
   box-shadow: 0 16px 46px rgba(71, 48, 33, 0.10);
 }
 
+.project-image-wrap img[src$="bib-tuck.jpg"],
+.project-image-wrap img[src$="klarx.png"] {
+  object-position: center top;
+}
+
 .project-card-featured .project-image-wrap img {
   height: 380px;
 }
