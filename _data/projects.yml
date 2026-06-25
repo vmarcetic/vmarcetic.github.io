@@ -117,20 +117,71 @@
 
     **Tech:** Ruby on Rails, React, PostgreSQL, Redis, Heroku
 
-- name: RaceChip / RaceChip.hr
-  link: racechip.hr
+- name: RaceChip
+  link: www.racechip.com
   image: racechip2.jpg
   description: |
-    Automotive ecommerce and product-data work around performance tuning chips, including a new RaceChip.hr webshop being built on Spree.
+    Backend and ecommerce/product-data work around RaceChip's international performance tuning commerce platform, plus a new RaceChip.hr webshop build on Spree for the Croatian market.
 
-    **Problem:** Vehicle tuning ecommerce needs accurate product fitment data, reliable catalog workflows, and a storefront that can handle model-specific compatibility without confusing buyers.
+    **Problem:** Vehicle tuning ecommerce needs accurate product fitment data, reliable catalog workflows, and storefront flows that can handle model-specific compatibility without confusing buyers.
 
     **What I did:**
-    - Worked on backend systems for a high-traffic commerce/product platform
+    - Worked on backend systems for the RaceChip.com commerce/product platform
     - Supported PostgreSQL-backed services and product data workflows
-    - Building up a new RaceChip.hr webshop on Spree for the Croatian market
+    - Building a new RaceChip.hr webshop on Spree as a separate Croatian-market storefront
 
     **Tech:** Ruby on Rails, Spree, PostgreSQL, ecommerce, product-data systems
+
+- name: Goop Webshop Consulting
+  link: goop.com
+  image: goop.png
+  description: |
+    Short, focused consulting on webshop/ecommerce work for Goop, a content-led consumer brand.
+
+    **Problem:** Mature ecommerce products often need senior help that can fit into an existing codebase and delivery process without creating unnecessary churn.
+
+    **What I did:**
+    - Provided targeted consulting around webshop/product delivery
+    - Stepped into an existing ecommerce context for short, practical support
+    - Focused on keeping the intervention scoped and useful rather than turning it into a rebuild
+
+    **Tech:** Ruby on Rails, ecommerce, consulting
+
+- name: Nexible
+  link: www.nexible.de
+  image: nexible.png
+  description: |
+    Production work on Nexible, Munich Re / ERGO's digital-first insurance brand for online insurance journeys.
+
+    **Problem:** Digital insurance products need to make quoting, binding, managing, cancelling, and claims flows feel simple while still respecting complex insurance rules and operational constraints.
+
+    **What I did:**
+    - Worked on product/backend delivery for Nexible's online insurance experience
+    - Supported digital customer journeys around policy management and claims-oriented workflows
+    - Contributed inside a high-standard insurtech environment backed by Munich Re / ERGO
+
+    **Tech:** Ruby on Rails, insurtech, ecommerce-style funnels, production product development
+
+    [Coverager: Nexible evolved beyond recognition](https://coverager.com/munich-res-nexible-has-evolved-beyond-recognition/) · [Branding reference](https://www.behance.net/gallery/114330659/Nexible-Branding)
+
+- name: Panex / Hamburg Vaccination Center
+  link: www.hmc-annualreport2020.com/vaccination-center
+  image: panex.png
+  description: |
+    Product/platform work connected to Panex and large-scale COVID vaccination-center operations.
+
+    **Problem:** Pandemic-era public-service operations needed appointment-driven flows, coordination, reporting, and reliable systems for high-volume vaccination logistics.
+
+    **What I did:**
+    - Worked on software connected to vaccination-center operations and coordination
+    - Supported workflows for large-scale, appointment-driven public-health logistics
+    - Helped delivery in a context where reliability, clarity, and operational throughput mattered
+
+    **Result:** Public source context for the Hamburg vaccination center describes 64 vaccination lines, 7,000–10,000 daily capacity when supply allowed, and more than 2,000 employees involved.
+
+    **Tech:** Ruby on Rails, operational systems, appointment workflows, public-service logistics
+
+    [Hamburg Messe annual report](https://www.hmc-annualreport2020.com/vaccination-center)
 
 - name: Movieo.me
   link: movieo.me
