@@ -147,16 +147,31 @@
 
     **Tech:** Java, application development, automotive product workflows
 
-- name: Goop Webshop Consulting
+- name: Klarx
+  link: klarx.de
+  image: klarx.png
+  description: |
+    Work connected to Klarx, a German construction-equipment rental platform for digital machine procurement and rental workflows.
+
+    **Problem:** Construction teams need faster, clearer access to available equipment, rental logistics, and procurement workflows across many machine categories and locations.
+
+    **What I did:**
+    - Supported product/platform delivery in a construction-equipment rental context
+    - Worked around digital rental and operational workflows for a marketplace-style product
+    - Contributed to software used for simplifying equipment procurement and rental operations
+
+    **Tech:** Ruby on Rails, marketplace/product development, operational workflows
+
+- name: Goop
   link: goop.com
   image: goop.png
   description: |
-    Short, focused consulting on webshop/ecommerce work for Goop, a content-led consumer brand.
+    Short, focused consulting on ecommerce/product work for Goop, a content-led consumer brand.
 
     **Problem:** Mature ecommerce products often need senior help that can fit into an existing codebase and delivery process without creating unnecessary churn.
 
     **What I did:**
-    - Provided targeted consulting around webshop/product delivery
+    - Provided targeted consulting around ecommerce/product delivery
     - Stepped into an existing ecommerce context for short, practical support
     - Focused on keeping the intervention scoped and useful rather than turning it into a rebuild
 
