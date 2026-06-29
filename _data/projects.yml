@@ -31,6 +31,45 @@
 
     **Tech:** Ruby on Rails, AI/LLM workflows, RAG, voice transcription, omnichannel messaging, GDPR-aware infrastructure
 
+- name: Bytecode Rails LLMs
+  link: huggingface.co/bytecodehr
+  description: |
+    Public Hugging Face models fine-tuned for idiomatic Ruby on Rails code generation.
+
+    **Problem:** General coding models often miss team conventions and generate Rails code that looks plausible but does not match how mature Rails products are actually built and maintained.
+
+    **What I did:**
+    - Built and published Bytecode's Rails-focused Hugging Face models
+    - Fine-tuned Qwen3-based models on 111,000 samples from internal Rails projects
+    - Prepared GGUF/Ollama-friendly releases for local development workflows
+    - Documented the dataset engineering, training, quantization, and deployment process
+
+    **Result:** Public Rails-specialized LLMs, including an 8B laptop-friendly model and a 31B MoE flagship model, that encode Bytecode's Rails conventions directly into the weights.
+
+    **Tech:** Hugging Face, Qwen3, QLoRA, Unsloth, GGUF, Ollama, Ruby on Rails
+  model_links:
+    - size: 31B
+      type: GGUF
+      name: qwen3-coder-30b-rails
+      description: Production-grade Rails code generation. MoE architecture — only 3B params active per token.
+      url: https://huggingface.co/bytecodehr/qwen3-coder-30b-rails
+    - size: 8B
+      type: GGUF
+      name: qwen3-8b-rails
+      description: Lightweight model that runs on a laptop. 5 GB download, 8 GB RAM minimum.
+      url: https://huggingface.co/bytecodehr/qwen3-8b-rails
+    - size: 7B
+      type: LoRA
+      name: qwen2.5-coder-7b-rails
+      description: LoRA adapter for Qwen 2.5 Coder 7B. Merge with base model for Rails-tuned generation.
+      url: https://huggingface.co/bytecodehr/qwen2.5-coder-7b-rails
+    - size: 3B
+      type: LoRA
+      name: qwen2.5-coder-3b-rails
+      description: Compact LoRA adapter. Fast inference for code completion and small generation tasks.
+      url: https://huggingface.co/bytecodehr/qwen2.5-coder-3b-rails
+  model_index_url: https://huggingface.co/bytecodehr
+
 - name: Uskladi.eu
   link: uskladi.eu
   image: uskladi.png
