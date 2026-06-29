@@ -31,6 +31,22 @@
 
     **Tech:** Ruby on Rails, AI/LLM workflows, RAG, voice transcription, omnichannel messaging, GDPR-aware infrastructure
 
+- name: Uskladi.eu
+  link: uskladi.eu
+  image: uskladi.png
+  description: |
+    Compliance operating system for Croatian and EU organizations managing GDPR, NIS2, DORA, and EU AI Act obligations.
+
+    **Problem:** Compliance work usually lives across spreadsheets, documents, email threads, scans, and disconnected evidence folders, making audits and ongoing readiness painful.
+
+    **What I did:**
+    - Built a platform for GAP assessments, readiness scoring, registers, findings, evidence, and audit exports
+    - Modeled workflows for GDPR ROPA/DSR/DPIA, NIS2 incident timelines, DORA controls, and EU AI Act inventories
+    - Connected technical scanning and compliance findings into one operational workspace
+    - Localized the product for Croatian organizations and EU regulatory language
+
+    **Tech:** Ruby on Rails, PostgreSQL, compliance workflows, document exports, security scanning, EU regulatory frameworks
+
 - name: Bytecode Rails LLMs
   link: huggingface.co/bytecodehr
   description: |
@@ -69,22 +85,6 @@
       description: Compact LoRA adapter. Fast inference for code completion and small generation tasks.
       url: https://huggingface.co/bytecodehr/qwen2.5-coder-3b-rails
   model_index_url: https://huggingface.co/bytecodehr
-
-- name: Uskladi.eu
-  link: uskladi.eu
-  image: uskladi.png
-  description: |
-    Compliance operating system for Croatian and EU organizations managing GDPR, NIS2, DORA, and EU AI Act obligations.
-
-    **Problem:** Compliance work usually lives across spreadsheets, documents, email threads, scans, and disconnected evidence folders, making audits and ongoing readiness painful.
-
-    **What I did:**
-    - Built a platform for GAP assessments, readiness scoring, registers, findings, evidence, and audit exports
-    - Modeled workflows for GDPR ROPA/DSR/DPIA, NIS2 incident timelines, DORA controls, and EU AI Act inventories
-    - Connected technical scanning and compliance findings into one operational workspace
-    - Localized the product for Croatian organizations and EU regulatory language
-
-    **Tech:** Ruby on Rails, PostgreSQL, compliance workflows, document exports, security scanning, EU regulatory frameworks
 
 - name: Napster
   link: www.napster.com
