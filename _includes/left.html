@@ -25,7 +25,7 @@
         <p class="quote">{{ include.item.quote }}</p>
         {%- endif -%}
         {%- if include.item.image && include.item.link -%}
-        {% assign protocol = include.href | strip | slice: 0, 4 %}
+        {% assign protocol = include.item.link | strip | slice: 0, 4 %}
         <a href="{% if protocol != 'http' %}//{% endif %}{{ include.item.link }}" target="_blank">
             <img src="assets/{{include.item.image}}" style="{% if include.item.image_border %}border: black 1px solid;{% endif %}">
         </a>

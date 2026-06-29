@@ -1,3 +1,20 @@
+- name: eRacuni.ai
+  link: eracuni.ai
+  image: eracuni-ai.png
+  image_border: true
+  description: |
+    AI bookkeeping assistant for Croatian companies: invoices, bank statements, VAT treatment, RRiF accounts, HNB exchange rates, and posting proposals in one workflow.
+
+    **Problem:** Croatian accounting workflows still require too much manual copying from PDFs, photos, bank statements, spreadsheets, and account-plan references before a clean monthly package can go to accounting.
+
+    **What I did:**
+    - Built the product flow for uploading invoices and bank statements into one review inbox
+    - Designed the new public landing page with a light, spacious Croatian-first UI and purple product identity
+    - Implemented AI-assisted extraction for invoices, VAT treatment detection, account suggestions, and posting review flows
+    - Connected the product narrative around Solo, Minimax, BankSense bank statements, RRiF accounts, HNB exchange rates, domestic VAT, and EU reverse charge
+
+    **Tech:** Ruby on Rails, AI/LLM workflows, OCR/document extraction, accounting automation, Croatian VAT/accounting workflows
+
 - name: Bytecode Rails LLMs
   link: huggingface.co/bytecodehr
   description: |
