@@ -102,7 +102,7 @@
         <div class="project-grid">
           {% for project in site.data.projects %}
             {% assign protocol = project.link | default: '' | strip | slice: 0, 4 %}
-            <article class="project-card">
+            <article class="project-card{% if forloop.first %} project-card-featured{% endif %}">
               {% if project.image %}
                 <div class="project-image-wrap{% if project.image_border %} image-border{% endif %}">
                   {% if project.link %}
